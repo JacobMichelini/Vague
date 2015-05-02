@@ -1,0 +1,202 @@
+@font-face {
+	font-family: big_noodle_titling;
+	src: url("big_noodle_titling.ttf") format("truetype");
+}
+
+.jheader {
+	font-family: big_noodle_titling, sans-serif;
+	font-size: 35px;
+	position: absolute;
+	left: 15px;
+	display: inline;
+	font-weight: bolder;
+	top: 20px;
+	color: #000;
+}
+
+.logoandname {
+	background-color: transparent;
+	width: 300px;
+	height: 150px;
+}
+
+.logo {
+	position: absolute;
+	top: -0px;
+	left: -0px;
+}
+
+.upperwhite {
+	position: relative;
+	height: 90px;
+	width: 100%;
+	background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+	font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #7400ff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: #000;
+	background-color: #e7e7e7;
+	border-radius: 3px;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #7400ff;
+}
+
+h1 {
+	color: black;
+	font-family: big_noodle_titling, sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.container {
+	background-color: transparent;
+}
+
+.white {
+	background-color: white;
+}
+
+.whitetext {
+	color: white;
+}
+
+.navbar-default {
+	background-color: white;
+	border-color: transparent;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #7400ff;
+	border-color: #000;
+	box-shadow: 0px 0px 50px 8px white;
+	font-family: big_noodle_titling, sans-serif;
+	font-size: 25px;
+	letter-spacing: 0px;
+	padding: 0px 15px 0px 15px;
+
+
+	-webkit-transition: all .75s ;
+    -moz-transition: all .75s ;
+    -o-transition: all.75s ;
+    transition: all .75s ;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #0096ff;
+	border-color: #000;
+}
+
+.carousel-caption p {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6), 0px 0px 10px black, 0px 0px 10px black;
+}
+
+
+.featurette-heading {
+	font-size: 40px;
+}
+
+.circled {
+	border-radius: 50%;
+}
+
+.centertext {
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+html {
+    background: white;
+    text-align: center;
+}
+
+.rotate {
+    -webkit-animation: spin 200s infinite linear;
+    -moz-animation: spin 200s infinite linear;
+    -ms-animation: spin 200s infinite linear;
+    -o-animation: spin 200s infinite linear;
+    animation: spin 200s infinite linear;
+ }
+ 
+
+
+@-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes spin {
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-o-keyframes spin {
+    to { -o-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.third {
+	border-radius: 0%;
+}
+
+.purpleback {
+	background-color:#47009C;
+	padding-top: 20px;
+	border:1px solid black;
+	border-radius: 3px;
+}
+
+.purpleback .col-lg-4  {
+	color: white;
+}
+
+.purpleback p  {
+	color: #ccc;
+	text-align: justify;
+}
+
+.widescreen {
+	position: relative;
+	height: 200px;
+	width: 100%;
+	max-width: 1000px;
+	background-color: white;
+	margin: auto;
+}
+
+.logopic {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	top: 10px;
+}
+
+.purple {
+	display: block;
+	position: relative;
+	max-width: 99999px;
+	background-color: #47009C;
+	height: 100px;
+}
